@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TK HACK</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #000000, #333);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      padding-bottom: 80px;
+    }
+
+    .container {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .container img {
+      width: 300px;
+      max-width: 90vw;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    }
+
+    h1 {
+      margin-top: 20px;
+      font-size: 2em;
+      letter-spacing: 2px;
+    }
+
+    .button {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .donasi-button {
+      background-color: #fbbf24;
+      color: #000;
+    }
+
+    .donasi-button:hover {
+      background-color: #f59e0b;
+    }
+
+    .wa-button {
+      background-color: #25D366;
+      color: white;
+    }
+
+    .wa-button:hover {
+      background-color: #1ebe5c;
+    }
+
+    .tiktok-button {
+      background-color: #000;
+      color: #fff;
+      border: 2px solid #fff;
+    }
+
+    .tiktok-button:hover {
+      background-color: #111;
+      border-color: #ff0050;
+      color: #ff0050;
+    }
+
+    .yt-button {
+      background-color: #ff0000;
+      color: white;
+    }
+
+    .yt-button:hover {
+      background-color: #cc0000;
+    }
+
+    .comment-section {
+      width: 90%;
+      max-width: 700px;
+      background: #1a1a1a;
+      margin-top: 40px;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 0.9em;
+      color: #aaa;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="foto.jpg" alt="TK HACL" />
+    <h1>Selamat Datang di TK • HACL</h1>
+
+    <a class="button donasi-button" href="https://saweria.co/Halcil6" target="_blank">💡 Dukung di Saweria</a><br />
+    <a class="button wa-button" href="https://wa.me/6285147188623" target="_blank">📱 Hubungi via WhatsApp</a><br />
+    <a class="button tiktok-button" href="https://www.tiktok.com/@halcil6?_t=ZS-8yciDPZgVlf&_r=1" target="_blank">🎵 Lihat TikTok Kami</a><br />
+    <a class="button yt-button" href="https://youtube.com/@tikhacil?si=rvantid23zakZ-3H" target="_blank">▶️ Kunjungi Channel YouTube</a>
+  </div>
+
+  <div class="comment-section">
+    <h2 style="color: #fbbf24;">💬 Komentar Pengunjung</h2>
+    <div class="commentbox" id="commentbox"></div>
+  </div>
+
+  <p class="footer">Gambar oleh Anda - Dibuat dengan ChatGPT</p>
+
+  <!-- Script dari commentbox.io -->
+  <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+  <script>
+    commentBox('tk-hack-halcil6');
+  </script>
+</body>
+</html>
